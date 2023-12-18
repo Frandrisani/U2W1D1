@@ -233,45 +233,42 @@ footer a {
   }
 
   header {
-    background: rgb(0, 160, 198);
-    background: linear-gradient(
-      180deg,
-      rgba(0, 160, 198, 1) 0%,
-      rgba(3, 109, 134, 1) 68%
-    );
     text-align: left;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: white;
-    box-shadow: 0 3px 3px #444;
-  }
-  header .uno img {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .uno {
     width: 75%;
+    display: inline-block;
+    text-align: left;
   }
-  header .uno p {
+
+  .uno img {
+    vertical-align: middle;
+    text-align: left;
+  }
+
+  .uno p {
+    margin-bottom: 0;
     display: inline-block;
   }
-  header nav ul {
-    margin: 0;
-    text-align: right;
+
+  nav {
+    display: inline-block;
   }
-  header nav li {
+
+  ul {
     list-style: none;
-    display: inline;
-    padding-right: 10px;
+    padding: 0;
+    margin: 0;
   }
-  header nav li a {
-    color: white;
-    text-decoration: none;
-  }
-  header nav li a:hover {
-    color: red;
-  }
-  header nav li a::before {
-    content: "\22c6\0020";
+
+  li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 1.1em;
   }
 
   main {
@@ -286,5 +283,22 @@ footer a {
   aside div {
     display: inline-block;
     width: 32%;
+  }
+
+  iframe {
+    width: 50%;
+    display: inline;
+  }
+  section {
+    width: 45%;
+    display: inline-block;
+    float: right;
+    border-radius: 10px;
+  }
+  table {
+    width: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
