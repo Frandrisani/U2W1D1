@@ -225,6 +225,18 @@ footer a {
     margin-right: auto;
   }
 
+  iframe {
+    width: 50%;
+    display: inline-block;
+  }
+
+  section {
+    width: 45%;
+    display: inline-block;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
   footer {
     padding: 56px 286px;
   }
